@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt_br"> 
+
+<head>
+    <title > - Formulário para JSON - </title>
+    <meta  charset = " utf-8 " />
+    <link  href = " estilo.css " rel = " stylesheet " media = " all " />
+    <!-<script src = "JavaScript1.js"> </script> ->
+
+    <link rel="stylesheet" href="/estilo.css"> 
+
+</head>
+<script>
+    function gerar() {
+        var dados = {
+            title: document.getElementById("title").value,
+            author: document.getElementById("author").value,
+            body: document.getElementById("body").value,
+            type: document.getElementById("type").value,
+            url: document.getElementById("url").value
+        }
+        var aux = 0;
+        for (var [key] of Object.entries(dados)) {
+            if (dados[key] == "") { aux++; }
+        }
+        if (aux > 0) {
+            alert("Preecha todos os campos");
+        }   else {
+            document.getElementById("dados").value = JSON.stringify(dados);
+            download("arqui.txt",JSON.stringify(dados));
+        }
+        function download(filename, text) {
+            var element = document.createElement('a');
+            element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+            element.setAttribute('download', filename);
+            element.style.display = 'none';
+            document.body.appendChild(element);
+            element.click();
+            document.body.removeChild(element);
+        
+        }
+    }
+</script>
+<body>
+    <div name="meu_form" class="center form">
+        <h1>Dados</h1>
+
+        <input type="text" id="title" placeholder="Ex: Deep Learning.."  name="title" />
+        <label for="title">Title</label>
+
+        <input type="text" id="author" placeholder="Ex: Isabella Câmara"  name="author" />
+        <label for="author">Author</label>
+
+        <textarea placeholder="Body" name="body" id="body"></textarea>
+
+        <input type="email" id="type" placeholder="Ex: article " name="type" />
+        <label for="email">Type</label>
+
+        <input type="text" id="url" placeholder="Ex: http://... " name="url" />
+        <label for="fone">URL</label>
+
+        <br>
+
+
+        <button class="enviar" onclick="gerar();"  >Criar</button>
+    </div>
+    <div name="meu_form" class="center form">
+        <textarea placeholder="JSON" name="dados" id="dados"></textarea>
+    </div>
+</body>
+
+</html>

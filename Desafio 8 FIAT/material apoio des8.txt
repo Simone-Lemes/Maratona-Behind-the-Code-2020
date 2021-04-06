@@ -1,0 +1,53 @@
+VIDEO DANI
+documentação clound foundry:
+https://cloud.ibm.com/docs/cloud-foundry-public?topic=cloud-foundry-public-using_buildpacks
+
+documentação manifest:
+https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html
+
+download CLI:
+https://github.com/IBM-Cloud/ibm-cloud-cli-release
+
+github do desafio:
+https://github.com/maratonadev-br/desafio-8-2020
+
+codigo do daniel:
+https://github.com/danitrod/cloud-foundry-example
+-----------------------------------------
+VIDEO GAMA
+https://flows.nodered.org/flow/e1eebe60b564f24f3a884e9627b6b838
+----------------------------------------
+POSTMAN:
+https://medium.com/@thi_carva/testando-serviços-web-api-com-postman-874ac81b20a3
+---------------
+audio:
+<audio controls>
+  <source src="viper.mp3" type="audio/mp3">
+  <source src="viper.ogg" type="audio/ogg">
+  <p>Your browser doesn't support HTML5 audio. Here is a <a href="viper.mp3">link to the audio</a> instead.</p>
+</audio>
+
+https://developer.mozilla.org/pt-BR/docs/Aprender/HTML/Multimedia_and_embedding/Video_and_audio_content
+
+---------------------------------
+nodeflac:
+https://www.npmjs.com/package/node-flac
+---------------------------------
+https://npm.io/package/node-flac
+-------------------------------
+DOCUMENTAÇÃO:
+https://cloud.ibm.com/developer/watson/documentation
+----------------------------------
+npm install ibm-watson@^5.7.0
+------------------------------
+https://github.com/watson-developer-cloud/node-sdk/blob/master/speech-to-text/v1.ts
+-------------------------------
+https://cloud.ibm.com/developer/watson/documentation
+---------------------------------------
+API NLU DOCUMENTAÇÃO:
+https://cloud.ibm.com/apidocs/natural-language-classifier?code=node
+https://github.com/watson-developer-cloud/node-sdk/blob/master/examples/natural_language_classifier.v1.js
+-----------------------------------
+SWAGGER:
+https://editor.swagger.io
+------------------------------------

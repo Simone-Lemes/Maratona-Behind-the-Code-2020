@@ -1,0 +1,82 @@
+TECBAN Desafio 5
+API KEY:
+yoMJJomZYBlFA6nwc3KV8Dtr-ZI90JaKL_fmp8JLBT17
+
+URL:
+https://api.jp-tok.assistant.watson.cloud.ibm.com/instances/0ee5c6b4-4871-4765-89d4-9b40776af1bc
+
+SKILL ID:
+7a6b4bed-c928-4006-abfc-52a9bc57d6bf
+
+assistant ID:
+92618f2a-5ccd-4719-8431-ef6638900d9b
+
+Como vai você ?
+E aí ?
+Oi
+Olá
+Tudo bem?
+Fala aí, beleza!
+
+
+Até a próxima ! 
+Até logo !
+Até mais!
+De boa !
+
+obrigada
+Ok obrigado
+Tranquilo !
+Valeu !
+
+
+quero sacar dinheiro
+quero sacar 500 em uma farmácia, pode me indicar?
+Quero pagar uma conta onde acho um ATM?
+Quero comprar pão, onde encontro um caixa eletrônico perto?
+Preciso tirar 100 no banco onde tem um?
+preciso sacar 100 reais
+Preciso saber onde tirar dinheiro
+Preciso de grana
+Preciso de 80 reais
+Onde tem um banco 24 horas?
+Me diga onde acho um caixa eletrônico
+Gostaria de saber onde acho um ATM perto daqui?
+Estou com pouco dinheiro no bolso e gosto de ter uns trocados, onde fica o caixa eletrônico mais próximo?
+
+Até logo, espero te ver em breve
+Espero ter ajudado. Até logo
+Obrigado por usar nosso serviço.
+Foi bom falar com você, volte sempre.
+
+{
+  "output": {
+    "intents": [
+      {
+        "intent": "Finalizacao",
+        "confidence": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity": "despedida",
+        "location": [
+          0,
+          2
+        ],
+        "value": "ok",
+        "confidence": 1
+      }
+    ],
+    "generic": [
+      {
+        "response_type": "text",
+        "text": null
+      },
+      {
+        "response_type": "text",
+        "text": "Foi bom falar com você, volte sempre."
+      }
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+api key:   s5cruVpqS1ab05iURF1IiVRpSW1Oxo1XyHosKABNzlHx
+url: https://api.jp-tok.discovery.watson.cloud.ibm.com/instances/c8786bc7-8325-4aa8-851d-fcbf2e7f742a
+a76ea89d-541b-4b7c-b046-65bf3c1e07dd
+41323d54-a424-43b1-9c52-4170cc0b01af
+bc82b029-ee82-49b1-af4d-46e2db9d6866
+
+Preciso de um artigo sobre
+Preciso de um vídeo sobre
+Quero um artigo sobre
+Quero um vídeo sobre
+Me veja um artigo sobre
+Me veja um vídeo sobre
+Me mostre um artigo sobre
+Me mostre um vídeo sobre
+Gostaria de um artigo sobre
+Gostaria de um vídeo sobre
+ 
+
+QUERYES
+1 A fascinante física do dia a dia
+Gostaria de um vídeo sobrefísica
+
+2 Como a Inteligência Artificial pode provocar uma segunda Revolução Industrial
+Me mostre um vídeo sobre Inteligência Artificial
+Como as pessoas e a inteligência artificial podem trabalhar juntas para criar melhores negócios
+Como a inteligência artificial pode melhorar nossa memória, nosso trabalho e nossa vida social
+O Futuro cada vez mais perto
+Os riscos do Machine Learning
+Inteligência Artificial da IBM consegue prever câncer de mama
+Inteligência artificial ajuda a Nasa a projetar novos trajes espaciais
+Como a inteligência artificial pode mudar o cenário de oferta de crédito
+
+3 Ajudem a descobrir ruínas antigas — antes que seja tarde demais
+Quero um vídeo sobre arqueologia
+
+4 Como as pessoas e a inteligência artificial podem trabalhar juntas para criar melhores negócios
+Preciso de um vídeo sobre inteligência artificial e negócios
+
+5 Como a nova tecnologia ajuda as pessoas cegas a explorar o mundo
+Me mostre um vídeo sobre tecnologia que ajuda deficientes
+
+6 Como IA poderia compor uma trilha sonora para sua vida
+Gostaria de um vídeo sobre IA e a música 
+
+7 Como a inteligência artificial pode melhorar nossa memória, nosso trabalho e nossa vida social
+Quero um vídeo sobre inteligência artificial no dia a dia
+
+8 O Futuro cada vez mais perto
+Quero um artigo sobre futuro da tecnologia
+Nova teoria diz que passado, presente e futuro coexistem
+
+9 Os riscos do Machine Learning
+Me mostre um artigo sobre Machine Learning
+
+10 Nova teoria diz que passado, presente e futuro coexistem
+Preciso de um artigo sobre 
+ 
+11 Inteligência Artificial da IBM consegue prever câncer de mama
+Me mostre um artigo sobre registros médicos
+
+12 Inteligência artificial ajuda a Nasa a projetar novos trajes espaciais
+Me veja um artigo sobre NASA e tecnologia
+Cientistas criam programa poderoso que aprimora detecção de galáxias
+
+13 Como a inteligência artificial pode mudar o cenário de oferta de crédito
+Gostaria de um artigo sobre deep learning
+
+14 Cientistas criam programa poderoso que aprimora detecção de galáxias
+Deep Learning: conheça o cérebro dos carros autônomos
+
+15 Deep Learning: conheça o cérebro dos carros autônomos
+Quero um artigo sobre carros autônomos
+
+NEGATIVO
+Conheça todos os tipos de estrelas que existem no universo
+
+Marte: O grande objeto de estudo espacial da década de 2020
+
+Computação Quântica: Entenda o futuro dos computadores e suas principais aplicações
+
+Para que serve a Bhaskara?
+
+Problemas para se concentrar? Conheça a técnica Pomodoro e sua extensão para Google Chrome
+
+Afinal, o homem foi ou não foi para a Lua?
+
+Nikola Tesla, o gênio mais injustiçado da história
+
+Tecnologias que provavelmente morrerão em 2019
+
+Como é um PC da NASA de verdade?
+
+Por que é mais vantagem para a Nasa enviar mulheres a Lua e a Marte?
+
+Sirius, a mais complexa infraestrutura científica já construída no Brasil
+
+O que é Criogenia? Saiba mais sobre esta tecnologia que pode te fazer acordar no futuro
+
+Qual graduação escolher? Ciência, engenharia da computação ou sistemas de informação?
+
+O misterioso passar do tempo
+
+Ciência de dados: Ferramentas para o combate à Covid-19
+
+Como a Tecnologia Da Informação pode ser uma aliada estratégica do negócio
+
+Qualidade de dados no Data Warehouse de uma empresa de E-Commerce
+
+O uso das tecnologias da informação no ensino superior
+
+O uso das tecnologias digitais no ensino-aprendizagem da língua inglesa no: ensino médio 
+
+Aplicabilidade da Metodologia Agil no Desenvolvimento de Software – Scrum como Referência

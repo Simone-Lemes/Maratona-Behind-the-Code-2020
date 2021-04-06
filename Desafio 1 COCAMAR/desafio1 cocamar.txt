@@ -1,0 +1,7 @@
+Model ID: DefaultCustomModel_1681754600
+
+API KEY: VR_Xbeu-vICn-u1tFcgVAzdD4uRlmGTNbXc_AuUgBzgc
+
+URL: https://api.kr-seo.visual-recognition.watson.cloud.ibm.com/instances/f2b2a030-356b-4b97-bef1-43481da2add5
+
+SERVIDOR DO PROJETO:pipeline-simone-fearless-gelada.mybluemix.net

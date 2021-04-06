@@ -1,0 +1,177 @@
+GITHUB DO MODELO:
+https://github.com/alohr51/Kabanero-Watson-Twitter-Example/blob/master/src/clients/WatsonNLU.js
+-----------------------------------------------
+'use strict';
+
+
+/**
+ * Analisa críticas contidas em um arquivo de áudio ou em um texto e recomenda um carro da FCA dependendo das críticas.
+ * 
+ *
+ * car String Nome do carro sobre o qual o comentário ou crítica é feito.
+ * text String Texto contendo uma crítica ou comentário sobre um carro. (optional)
+ * audio File Áudio em formato FLAC contendo uma crítica ou comentário sobre um carro. (optional)
+ * returns Result
+ **/
+
+
+
+exports.apiRecommendPOST = function(car,text,audio) {
+
+  return new Promise(async function(resolve, reject) {
+--------------------------------------------------------
+STT PUXA O AUDIO E O TEXTO COLOCAR NOME: WatsonSTT.js (Faz a recomendação do carro)
+   
+      if(audio){
+        const fs = require('fs');
+        const SpeechToTextV1 = require('ibm-watson/speech-to-text/v1');
+        const { IamAuthenticator } = require('ibm-watson/auth');
+        var texto = ""
+
+        const speechToText = new SpeechToTextV1({
+          authenticator: new IamAuthenticator({
+            apikey: 'apikey',
+          }),
+          serviceUrl: 'serviceurl',
+        });
+        
+        const recognizeParams = {
+          audio: audio.buffer,
+          model: 'pt-BR_BroadbandModel',
+          contentType: 'audio/flac',
+          wordAlternativesThreshold: 0.9,
+          keywords: ['Carro', 'Motor', 'Velocidade'],
+          keywordsThreshold: 0.5,
+        };
+
+        await speechToText.recognize(recognizeParams)
+          .then(speechRecognitionResults => {
+             texto = JSON.stringify(speechRecognitionResults.result.results[0].alternatives[0].transcript, null, 2);
+        })
+        .catch(err => {
+            console.log('error:', err);
+        });
+    
+      }
+      
+      if(text){
+        console.log('oi2')
+        texto = text
+      }
+      
+module.exports = WatsonSTT;
+     -----------------------------------------------
+CHAMA A NLU (abrir em um file) nome:  WatsonNLU.js
+
+      const NaturalLanguageUnderstandingV1 = require('ibm-watson/natural-language-understanding/v1');
+      const { IamAuthenticator } = require('ibm-watson/auth');
+
+      const naturalLanguageUnderstanding = new NaturalLanguageUnderstandingV1({
+      version: '2020-08-01',
+      authenticator: new IamAuthenticator({
+        apikey: 'apikey',
+      }),
+        serviceUrl: 'serviceurl',
+      });
+
+      console.log(texto)
+
+      const analyzeParams = {
+        'features': {
+          'relations': {}
+        },
+        'text': texto
+      };
+
+      naturalLanguageUnderstanding.analyze(analyzeParams)
+        .then(analysisResults => {
+          console.log(JSON.stringify(analysisResults, null, 2));
+        })
+        .catch(err => {
+          console.log('error:', err);
+        });
+ 
+    resolve({
+      ok:true
+    });
+    
+  });
+}
+
+module.exports = WatsonNLU;
+
+-----------------------------------------
+return new Promise(async function(resolve, reject) {
+----------------------------
+
+ }  else {
+      {
+        "recommendation": text.recommendation,
+        "entities": []
+      }
+-----------------------
+const RecomendaoServices = RecomendaoService();
+--------------------------
+importar o NLU Desafio 7 2019 (diferente)
+import json
+from watson_developer_cloud import NaturalLanguageUnderstandingV1
+from watson_developer_cloud.natural_language_understanding_v1 import Features, EntitiesOptions, KeywordsOptions, SentimentOptions
+
+
+def main(dict):
+    try:
+        model_id=""
+        natural_language_understanding = NaturalLanguageUnderstandingV1(
+            version='2018-04-05',
+            iam_apikey="",
+            url='https://gateway-wdc.watsonplatform.net/natural-language-understanding/api')        
+        resposta = natural_language_understanding.analyze(
+            text=dict['texto'],
+            features=Features(
+                entities=EntitiesOptions(emotion=True, sentiment=True, model=model_id),
+                sentiment=SentimentOptions()),
+                ).get_result()
+        retorno = {}
+
+        # Salvar as entidades no retorno
+        if 'entities' in resposta:
+            for i in range(len(resposta['entities'])):
+                retorno[resposta['entities'][i]['type']] = resposta['entities'][i]['text']
+
+        # Salvar o sentimento no retorno
+        if 'sentiment' in resposta:
+            retorno['sentiment'] = resposta['sentiment']['document']['label']
+
+        dict['err'] = False
+        dict['resposta'] = retorno
+        return dict
+
+    except:
+        dict['err'] = True
+        dict['resposta'] = "Erro na chamada ao NLU."
+        return dict
+------------------------------------
+
+RECOMENDAÇÃO DE CARRO SENTIMENTO NEGATIVO
+
+if ( sentiment <= 0){
+  resolve(
+    {
+      "recommendation": "",
+      "entities": []
+    }
+  );
+
+
+///
+    if (geralEntitiesScore >= 0){
+      resolve(
+        {
+          "recommendation": "",
+          "entities": []
+        }
+      );
+    }else{
+
+    }
+

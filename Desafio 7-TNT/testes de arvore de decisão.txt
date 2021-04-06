@@ -1,0 +1,218 @@
+grid score 
+testar numeros random um pouco mais e um pouco menos mas não muito diferente
+esemble balacear os dados
+min e max para nivelar os dados deixar balanceado
+knoledge
+e chat bot ver se a intencao tem a ver com a entidade e marcar
+ex; estou no banco bradesco não tem intencao de ir ao banco agora se disser eu quero sacar no banco bradesco daí sim tem a intencao de saque no banco bradesco
+modelos repetidos manter a respodta para o robo não se confundir no meio do caminho
+desafio 3 e 4 Latam live
+
+----------------------------------------------------
+
+# Em seguida iremos importar diversas bibliotecas que serão utilizadas:
+
+# Pacote para trabalhar com JSON
+import json
+
+# Pacote para realizar requisições HTTP
+import requests
+
+# Pacote para exploração e análise de dados
+import pandas as pd
+
+# Pacote com métodos numéricos e representações matriciais
+import numpy as np
+
+# Pacote para construção de modelo baseado na técnica Gradient Boosting
+import xgboost as xgb
+
+# Pacotes do scikit-learn para pré-processamento de dados
+# "SimpleImputer" é uma transformação para preencher valores faltantes em conjuntos de dados
+from sklearn.impute import SimpleImputer
+
+# Pacotes do scikit-learn para treinamento de modelos e construção de pipelines
+# Método para separação de conjunto de dados em amostras de treino e teste
+from sklearn.model_selection import train_test_split
+# Método para criação de modelos baseados em árvores de decisão
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import GradientBoostingClassifier
+
+# Classe para a criação de uma pipeline de machine-learning
+from sklearn.pipeline import Pipeline
+
+# Pacotes do scikit-learn para avaliação de modelos
+# Métodos para validação cruzada do modelo criado
+from sklearn.model_selection import KFold, cross_validate
+------------------------------------------------------------------
+
+MODELO DOS NOTEBOOKS PADRÃO
+1# Método para criar um árvore de decisão
+from sklearn.tree import DecisionTreeClassifier
+dtc = DecisionTreeClassifier(max_depth=15).fit(X_train, y_train)
+---------------------------------------------------
+2# Método para criar um árvore de decisão
+from sklearn.tree import DecisionTreeClassifier
+dtc = DecisionTreeClassifier(class_weight='balanced', max_features=None, random_state=33).fit(X_train, y_train)
+---------------------------------------------------
+
+3# Criação da árvore de decisão com a biblioteca ``scikit-learn``:
+from sklearn.ensemble import GradientBoostingClassifier
+dtc = GradientBoostingClassifier(max_depth=5, max_features=0.6380369124456099, min_samples_leaf=0.012756772614379481, min_samples_split=0.49707579453834616, n_estimators=58, random_state=33).fit(X_train, y_train)
+--------------------------------------------------------------
+4# Método para creacion de modelos basados en arbol de desición
+from xgboost import XGBClassifier
+dtc = XGBClassifier(gamma=0.16580055834416998, learning_rate=0.11892328235837529, max_depth=2, min_child_weight=3, missing=float('nan'), n_estimators=662, n_jobs=4, objective='multi:softprob', random_state=33, reg_alpha=0.9959035191218003, reg_lambda=0.7084822447123595, silent=True, subsample=0.9940018163295203, verbosity=0, tree_method='hist').fit(X_train, y_train)
+------------------------------------------------------
+5# Método para criar um árvore de decisão
+from sklearn.tree import DecisionTreeClassifier
+dtc = DecisionTreeClassifier(criterion="entropy", max_features=0.5, 
+                            min_samples_leaf=19, min_samples_split=6, random_state=42).fit(X_train, y_train)
+------------------------------------------------------
+6# Método para criar um árvore de decisão
+from sklearn.tree import DecisionTreeClassifier
+dtc = DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, presort='deprecated',
+                       random_state=1234, splitter='best').fit(X_train, y_train)
+-------------------------------------------------------------------
+7# Método para criar um árvore de decisão
+from xgboost import XGBClassifier
+dtc = XGBClassifier(learning_rate=0.01, max_depth=8, min_child_weight=20, n_estimators=100, nthread=1, subsample=0.45).fit(X_train, y_train)
+--------------------------------------------------------------------
+8# Método para criar um árvore de decisão
+from xgboost import XGBClassifier
+dtc = XGBClassifier(gamma=0.04889329032668288, learning_rate=0.02011107259785676, min_child_weight=2, missing=float('nan'), n_estimators=1049, n_jobs=4, objective='multi:softprob', random_state=33, reg_alpha=0.9951114968613709, reg_lambda=0.12492107529973615, silent=True, subsample=0.9945861460435474, verbosity=0, tree_method='hist').fit(X_train, y_train)
+---------------------------------------------------------------------
+9#modelo binario
+# Método para creacion de modelos basados en arbol de desición
+from xgboost import XGBClassifier
+dtc = XGBClassifier(max_depth=8,
+                        learning_rate=0.01,
+                        n_estimators=100,
+                        silent=True,
+                        nthread=1,
+                        subsample=0.45,
+                        gamma=0.04889329032668288,
+                        min_child_weight = 2,
+                        objective="binary:logistic").fit(X_train, y_train)
+--------------------------------------------------------------------
+10# Método para criar um árvore de decisão
+from sklearn.ensemble import RandomForestClassifier
+dtc = RandomForestClassifier(class_weight='balanced', n_jobs=4, oob_score=True, random_state=33).fit(X_train, y_train)
+---------------------------------------------------------------------
+modelo neural
+11# Método para criar um árvore de decisão
+from sklearn.neural_network import MLPClassifier
+dtc = MLPClassifier(solver='adam',alpha=1e-5,hidden_layer_sizes=(1024,128),random_state=1,max_iter=150)
+dtc.fit(X_train, y_train)
+-------------------------------------------------------------
+(SO EM MODELO BINARIO OU COM NUMEROS)
+from sklearn.ensemble import GradientBoostingRegressor
+dtc = GradientBoostingRegressor(n_estimators=100, learning_rate=0.1, max_depth=3, random_state=42).fit(X_train, y_train)
+-------------------------------------------------------
+12# Método para criar um árvore de decisão
+from sklearn.ensemble import BaggingClassifier
+dtc = BaggingClassifier (max_samples = 1.0, bootstrap = True).fit(X_train, y_train)
+-------------------------------------------------------
+13# Método para criar um árvore de decisão
+from sklearn.ensemble import AdaBoostClassifier
+dtc =  AdaBoostClassifier(n_estimators=50,
+                         learning_rate=1).fit(X_train, y_train)
+---------------------------------------------------
+from sklearn.svm import SVC
+from sklearn.ensemble import AdaBoostClassifier
+from sklearn import metrics
+svc=SVC(probability=True, kernel='linear')
+abc =  AdaBoostClassifier(n_estimators=50, base_estimator=svc, learning_rate=1)
+dtc = abc.fit(X_train, y_train)
+y_pred = dtc.predict(X_test)
+print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
+-----------------------------------------------
+REGRESSÃO LOGISTICA
+from sklearn.linear_model import LogisticRegression
+lr = LogisticRegression()
+------------------------------
+X = df_training.drop("categoria", axis = 1)
+y = df_training.categoria
+----------------------------
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(features, target, random_state = 1, stratify=target)
+----------------------------
+lr.fit(X_train, y_train)
+-------------------------
+y_pred = lr.predict(X_test)
+-------------------------
+accuracy_score(y_test, y_pred)
+--------------------------
+
+PUXANDO DADOS DA CLOUND NOTEBOOK
+# instalação das libs
+!pip install cloudant
+-------------------
+#importar o cloudant e o pandas
+from cloudant import Cloudant #para leitura do DB criado na IBM
+import pandas as pd #para manipulação de dados
+------------------------------
+#username, password e account do CLOUDANT
+u, p, a = "f8feb180-af11-4409-a963-9079bd02e37f-bluemix", "3963d41189c61c36f3c90159ae2f25f7d3cbcebb890fd0108c447d234f360450", "f8feb180-af11-4409-a963-9079bd02e37f-bluemix"
+#cria o cliente com um objeto Cloudant
+client = Cloudant(cloudant_user=u,auth_token=p, account=a, connect=True, auto_renew=True)
+------------------------------
+#conexão com o banco de dados
+db = client['simone-iot']
+response = db.all_docs(limit=20000, include_docs=True)
+docs = [] 
+for r in response['rows']: 
+  docs.append(r['doc']) 
+  type(docs)
+------------------------------------
+#criando o Dataframe
+df = pd.DataFrame(data=docs) 
+#alterando as colunas latitude e longitude para float
+df['LAT'] = df['LAT'].astype(float) 
+df['LONG']= df['LONG'].astype(float) 
+------------------------------------------
+
+# Treino do modelo 
+dtc_model.fit(
+    X_train,
+    y_train
+)
+
+OU
+y_pred = dtc.predict(X_test)
+print(y_pred)
+-------------------------------------------------
+
+F1 SCORE
+print (classification_report(y_test, y_pred))
+----------------------------------------------
+accuracy_score(y_test, y_pred)
+----------------------------------
+VALIDAÇÃO CRUZADA
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.model_selection import cross_val_score
+from sklearn import datasets
+from sklearn import svm
+---------------------------------
+X_train, X_test, y_train, y_test = train_test_split(features, target, test_size=0.3)
+-----------------------------------
+clf = svm.SVC(gamma='auto')
+--------------------------------
+clf.fit(X_train, y_train)
+--------------------------
+clf.score(X_test, y_test)
+--------------------------
+scores = cross_val_score(clf, features, target, cv=5, scoring='accuracy')
+----------------------------
+scores
+--------------
+scores.mean()
+--------------
+

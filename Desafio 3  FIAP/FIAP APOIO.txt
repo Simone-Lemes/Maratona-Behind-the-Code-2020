@@ -1,0 +1,138 @@
+1 percepção cultural da física 
+cosmologia
+ leis do movimento de Newton
+ telescópio espacial Hubble. (ARTIGO 14)
+termodinâmica,
+computação quântica
+
+2 sistemas tecnológicos
+“cognificar”, "cognificação     (ARTIGO 8)
+inteligência de QI
+Temos raciocínio dedutivo, temos inteligência emocional, temos inteligência espacial
+Revolução Agrícola (ARTIGO 8)
+robôs.
+
+3 arqueóloga,
+Egito
+Quênia
+descobertas arqueologicas
+Arqueologia Espacial,
+pirâmides
+
+4 
+Equipes de negócios
+algocracia
+cientistas de dados
+ Trabalhamos com uma equipe de médicos para verificar a lógica médica de cada variável de nosso modelo
+mecanismos de precificação
+
+5 deficientes visuais
+mecanismos de precificação
+ livros digitais
+Home Page Reader
+ assistência cognitiva
+
+6  redes neurais  (ARTIGO 9)
+ musica
+IA possa compor centenas de horas de música personalizada
+ personalizar a música 
+Induzimos AIVA a compor uma música
+
+7  Siri para gerenciar sua vida social
+o diagnóstico de câncer   (ARTIGO 11)
+máquinas inteligentes
+
+8 cognificação (ARTIGO 2)
+revolução industrial (ARTIGO 2)
+
+9 aprendizado de máquina
+redes neurais (ARTIGO 6)
+
+10 dimensão do espaço-tempo
+Albert Einstein em 1915. Em sua teoria geral da relatividade
+
+11 algoritmo de alta precisão  (ARTIGO 7)
+algoritmo para fazer previsões
+
+12 redes generativas adversariais
+ algoritmos genéticos
+
+13 setor financeiro.
+machine learning (ARTIGO 9)
+deep learning (ARTIGO 15)
+processamento de dados
+
+14 classificar galáxias 
+ deep learning (ARTIGO 13)
+telescópio Hubble (ARTIGO 1)
+Morpheus
+
+15 Deep Learning (ARTIGO 13 E 9)
+rede neural (ARTIGO 9)
+
+SCORE:
+1 - Gostaria de um vídeo sobre física 10%
+A fascinante física do dia a dia 27%
+Preciso de um vídeo sobre percepção cultural da física 17%
+Quero um vídeo sobre cosmologia 9%
+Me veja um vídeo sobre leis do movimento de Newton 18%
+Me mostre um vídeo sobre telescópio espacial Hubble 18%
+Gostaria de um vídeo sobre termodinâmica 11%
+
+Inteligência artificial ajuda a Nasa a projetar novos trajes espaciais
+Rate results
+1relevant13not relevant
+
+algoritmos genéticos o que são?
+Rate results
+1relevant8not relevant
+
+artigo que fale de redes generativas adversariais
+Rate results
+1relevant7not relevant
+
+Inteligência Artificial da IBM consegue prever câncer de mama
+Rate results
+1relevant11not relevant
+
+quero artigo de algoritmo para fazer previsões
+Rate results
+1relevant12not relevant
+
+algoritmo de alta precisão exemplos
+Rate results
+1relevant11not relevant
+
+Nova teoria diz que passado, presente e futuro coexistem
+Rate results
+1relevant12not relevant
+
+Albert Einstein teoria geral da relatividade
+Rate results
+1relevant4not relevant
+
+dimensão do espaço-tempo
+Rate results
+1relevant9not relevant
+
+Os riscos do Machine Learning
+Rate results
+1relevant6not relevant
+
+redes neurais exemplo de uso
+Rate results
+2relevant10not relevant
+
+como funciona o aprendizado de máquina
+Rate results
+1relevant10not relevant
+
+cognificação o que é?7%
+O Futuro cada vez mais perto 33%
+o que é revolução industrial 22%
+Revolução Agrícola me mostre mais sobre o assunto 12%
+Quero saber sobre cognificação 10%
+
+
+
+

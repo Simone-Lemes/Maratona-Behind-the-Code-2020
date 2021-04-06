@@ -1,0 +1,49 @@
+simone-lemes-desafio-8 (nome Nodered)
+--------------------------------
+
+Model ID: cddcd0e4-b535-4e21-bf30-08411e102bd2
+Service ID: d0f12ebd-0fcf-4284-ba28-9a68114f453e
+nova:
+41b7d43f-8061-412f-817c-ec316a79ee62
+-------------------------------------
+NATURAL LINGUAGE UNDERSTANDING:
+{
+  "apikey": "tFitdxI68PptYKxZjtSGdt2vvcL9I0MDz705A-KLzEfv",
+  "iam_apikey_description": "Auto-generated for key 1a2d3d13-e9a5-4699-a3ac-0f36bd4e9abc",
+  "iam_apikey_name": "Auto-generated service credentials",
+  "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+  "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/566fb67dc41d41f8b89514c9aa0ad18a::serviceid:ServiceId-19b08f20-d6b7-4b86-9850-bedcbfd045ff",
+  "url": "https://api.kr-seo.natural-language-understanding.watson.cloud.ibm.com/instances/d0f12ebd-0fcf-4284-ba28-9a68114f453e"
+}
+----------------------------------
+CREDENCIAIS DO SERVIÇO:
+
+---------------------------------
+API IBM CLOUD:
+SQA_0MabhyNJTJjp9PiaVIh6BoPkm2gS1mypZ0Q2crtf
+
+----------------------------------------------
+LOGIN CLOUD:
+terminal:ibmcloud login
+$
+ibmcloud login -a cloud.ibm.com -o "sixmon.lemes@gmail.com" -s "dev"
+
+TARGET:
+terminal:ibmcloud target -c <account_id>
+$
+ibmcloud target -o sixmon.lemes@gmail.com -s dev
+
+TESTAR:
+$
+ibmcloud fn list
+---------------------------------------
+function main(params) {
+    params.username = "apikey";
+    params.password = "tFitdxI68PptYKxZjtSGdt2vvcL9I0MDz705A-KLzEfv";
+    params.version = "2020-09-18";
+    params.features = {'sentiment':{},
+    'entities':
+    { 'model' : "cddcd0e4-b535-4e21-bf30-08411e102bd2"},
+    'relations':
+    {'model': "cddcd0e4-b535-4e21-bf30-08411e102bd2"},
+    };
